@@ -39,7 +39,7 @@ class CategoryController {
          * update
          */
         Category c= session.selectOne("getCategory",4);
-        c.setName("修改了的Category名称");
+        c.setName("修改了的Category名称2020");
         session.update("updateCategory",c);
         listAll(session);
 
